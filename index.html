@@ -1,114 +1,47 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Showreel Saya</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #121212;
-      color: #fff;
-    }
-
-    header {
-      text-align: center;
-      padding: 50px 20px 20px;
-    }
-
-    header h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      color: #aaa;
-    }
-
-    .video-container {
-      display: flex;
-      justify-content: center;
-      margin: 30px 0;
-    }
-
-    iframe {
-      width: 90%;
-      max-width: 800px;
-      height: 450px;
-      border: none;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    }
-
-    .about {
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-      font-size: 1.1em;
-      line-height: 1.6;
-    }
-
-    .contact {
-      text-align: center;
-      margin: 40px 0;
-    }
-
-    .contact a {
-      background-color: #1e90ff;
-      color: white;
-      padding: 12px 24px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-
-    .contact a:hover {
-      background-color: #0b70d0;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #666;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rey – FX Artist Showreel</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="favicon.ico" />
 </head>
 <body>
-
-  <header>
-    <h1>Showreel - Muhammad Zaidan Ali Windraya</h1>
-    <p>Visual Effects | Compositing | Editing</p>
+  <header class="hero">
+    <h1>Hi, I'm <span class="highlight">Reyqyulangie Didik</span></h1>
+    <p class="subtitle2">Junior VFX & Comp Artist</p>
+    <p class="subtitle">Unreal Engine · Houdini · Nuke · Blender · Fusion · Maya</p>
+    <div class="buttons">
+      <a href="#showreel" class="btn">🎬 Watch Showreel</a>
+      <a href="assets/resume.pdf" class="btn outline" target="_blank">📄 Resume</a>
+    </div>
   </header>
 
-  <div class="video-container">
-    <iframe 
-      src="https://www.youtube.com/embed/XpRVZUONXuY?start=464&autoplay=1" 
-      allowfullscreen 
-      allow="autoplay">
-    </iframe>
-  </div>
-
-  <section class="about">
-    <h2>Tentang Saya</h2>
-    <p>
-      Hi, Saya Muhammad Zaidan Ali Windraya. Saya seorang VFX Artist dari Indonesia 
-      yang antusias menciptakan efek visual yang memukau untuk Film, Iklan, dan Tv.
-      Saya menggunakan software seperti Houdini, After Effects, Nuke, dan Blender untuk menciptakan visual yang memukau
-      
-    </p>
+  <section id="showreel" class="section">
+    <h2>Showreel</h2>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/0aDW9PFu3QE" frameborder="0" allowfullscreen></iframe>
+    </div>
   </section>
 
-  <div class="contact">
-    <a href="zwindraya@email.com">Hubungi Saya</a>
-  </div>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Aspiring and skilled Visual Effects Artist with a specialization in animation from SMK Raden Umar Said, and hands-on experience in stylized and procedural VFX for animated series. With one years of experience, I have developed a strong foundation in tools such as Houdini FX, Unreal Engine, Nuke, Fusion, Maya and Blender, and have been entrusted to create and optimize VFX assets in various productions. I am particularly interested in enhancing FX pipelines for real-time and animated storytelling, and contributing both creative and technical solutions in a collaborative production environment.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <div class="social-icons">
+      <a href="https://linkedin.com/in/reyqyulangied" target="_blank">LinkedIn</a>
+      <a href="https://instagram.com/apprdp" target="_blank">Instagram</a>
+      <a href="https://facebook.com/reyqyulangie.didik" target="_blank">Facebook</a>
+    </div>
+    <p>Email: <a href="mailto:reyqyulangied@gmail.com">reyqyulangied@gmail.com</a></p>
+  </section>
 
   <footer>
-    &copy; 2025 Muhammad Zaidan Ali Windraya. Semua hak dilindungi.
+    <p>&copy; 2025 Reyqyulangie</p>
   </footer>
-
 </body>
 </html>
