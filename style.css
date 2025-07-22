@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0c0c0c;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(145deg, #1c1c1c, #0c0c0c);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.highlight {
+  color: #ff5555;
+}
+.subtitle {
+  font-size: 0.8rem;
+  color: #bbb;
+}
+.subtitle2 {
+  font-size: 1.2rem;
+  color: #caabdb;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+.btn {
+  background: #ff5555;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #e04444;
+}
+.btn.outline {
+  background: transparent;
+  border: 2px solid #ff5555;
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+.video-wrapper iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border: none;
+  border-radius: 8px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+.social-icons a {
+  color: #ff5555;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
